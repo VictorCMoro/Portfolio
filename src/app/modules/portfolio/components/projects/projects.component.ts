@@ -16,7 +16,7 @@ export class ProjectsComponent {
 
   public arrayProjects = signal<IProjects[]>([
     {
-      src: '/assets/img/projects/stack-of-books.png',
+      src: 'https://victorcmoro.github.io/Portfolio/assets/img/projects/stack-of-books.png',
       alt: 'ícone de livros para o projeto',
       title: 'CRUD Livraria',
       width: '100px',
@@ -26,7 +26,7 @@ export class ProjectsComponent {
       links: [{ name: 'Repositório FrontEnd ', href: 'https://github.com/VictorCMoro/CRUDAngular', nameGit: 'Repositório BackEnd', gitHref: 'https://github.com/VictorCMoro/CRUDApi'}],
     },
     {
-      src: '/assets/img/projects/ready-stock (2).png',
+      src: 'https://victorcmoro.github.io/Portfolio/assets/img/projects/ready-stock (2).png',
       alt: 'ícone de estoque para o projeto',
       title: 'Gestor de estoque',
       width: '100px',
