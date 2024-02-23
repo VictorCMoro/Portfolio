@@ -1,0 +1,18 @@
+<header>
+  <h2>{{ getData()?.title }}</h2>
+  <button (click)="closeModal()">
+    <img src="assets/icons/dialog/close.svg" alt="Botão para fechar dialog" />
+  </button>
+</header>
+  <mat-dialog-content>
+    <img [src]="getData()?.src" [alt]="getData()?.alt" width="100%" height="90%" loading="lazy">
+    <article>{{getData()?.description}}</article>
+    <nav>
+        @for (item of getData()?.links; track item) {
+            <a [href]="item.certificateHref" target="_blank" class="btn btn-primary">{{item.name}}
+            </a>
+           
+        }
+    </nav>
+  </mat-dialog-content>
+

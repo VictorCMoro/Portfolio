@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Formação</h2>
+  
+  @for (item of arrayGraduations(); track item) {
+  <details><summary><p>
+    
+    <strong>{{item.summary.strong}}</strong>
+    {{item.summary.p}}
+  </p></summary>
+  <article>{{item.description}}</article></details>
+  
+}
+</div>

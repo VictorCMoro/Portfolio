@@ -1,0 +1,13 @@
+<div class="container">
+    <h2>Certificados</h2>
+    <ul>
+        @for (item of arrayCertificates(); track item) {
+            <li>
+                <button (click)="openDialog(item)">
+                    <img [title]="item.title" [src]="item.buttonSrc" [alt]="item.alt" width="100px" height="100px" loading="lazy">
+                </button>
+            </li>
+        }
+        
+    </ul>
+</div>
