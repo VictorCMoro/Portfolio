@@ -34,6 +34,15 @@ export class ProjectsComponent {
       description: 'Este projeto é uma aplicação de página única (SPA) de gestão de estoque desenvolvida com React, React Router e Vite. Competências: Desenvolvimento de front-end · React.js · JavaScript',
       links: [{ name: 'Testar projeto', href: 'https://victorcmoro.github.io/Gestor_de_Estoque/', nameGit: 'Repositório', gitHref: 'https://github.com/VictorCMoro/Gestor_de_Estoque' }],
     },
+    {
+      src: 'https://victorcmoro.github.io/Portfolio/assets/img/projects/icons8-pokebola-96.png',
+      alt: 'ícone  para o projeto',
+      title: 'Pokedex',
+      width: '100px',
+      height: '100px',
+      description: 'Este projeto é uma aplicação que desenvolvi para treinar o consumo de API e display da mesma, onde podemos ver todos os pokemons e pesquisar algum específico, e ver suas estatísticas',
+      links: [{ name: 'Testar projeto', href: 'https://victorcmoro.github.io/pokedexAngular/', nameGit: 'Repositório', gitHref: 'https://github.com/VictorCMoro/pokedexAngular' }],
+    },
   ]);
 
   public openDialog(data: IProjects) {
